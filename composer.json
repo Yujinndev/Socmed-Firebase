@@ -1,0 +1,22 @@
+{
+    "name": "markk/socmed-final",
+    "description": "A social media project with twitter-like ui using firebase, php and javascript",
+    "type": "project",
+    "require": {
+        "google/cloud-firestore": "^1.33",
+        "kreait/firebase-php": "^7.2"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Markk\\SocmedFinal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yujinndev",
+            "email": "xyujinwho@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

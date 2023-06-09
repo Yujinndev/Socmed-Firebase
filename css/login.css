@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&family=Signika:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.6em;
+    background-color: rgb(110, 110, 110);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgb(190, 190, 190);
+  }
+
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  .gradient-custom-2 {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+
+  .is-valid {
+    background-image: none !important;
+  }
+
+  input {
+    font-family: 'Concert One', cursive;
+  }
+
+  .input {
+    height: 4.75rem;
+    width: 100%;
+  }
+
+  .input .invalid-feedback {
+    margin-top: -.25px
+  }
+
+  .input-pass {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+  }
+
+  .show-pass {
+    position: absolute;
+    width: 30px;
+    margin: 11px 3.5px 11px 11px;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+
+  .input-pass .is-invalid {
+    background-image: none !important;
+
+  }
+    
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
